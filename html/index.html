@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,47 +13,63 @@
     <link rel="stylesheet" href="../css/main.css" />
     <title>PORTFOLIO</title>
   </head>
-  <body>
-    <!-- <header>
+  <body style="background-color: rgb(239, 232, 233)">
+    <header>
       <nav class="container">
         <h3>
-          <a href="index.html" style="color: white"> Portfolio</a>
+          <a href="main.html" style="color: white">PORTFOLIO</a>
         </h3>
         <ul class="nav-list">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="#contactus">Contact Us</a></li>
+          *
         </ul>
       </nav>
-    </header> -->
-
-    <main class="container row">
-      <section class="col-8">
-        <figure style="width: 100%">
-          <div style="float: left; margin-right: 50px;">
-            <img src="../imgs/IMG.jpeg" width="400px" alt="Trulli" />
-          </div>
-          <figcaption>
-            Hi, My name is Ayush Lathiya. 
-            <br />
-            <br />
-            I have completed my bachelor’s in Computer Application from MIT WORLD PEACE UNIVERSITY.
-            <br />
-            <br />
-            It was a 3 years course from which I have learned various Languages such as C, C++, C#, Java, Python, PHP and Database like MySql and Oracle.
-            <br />
-            <br />
-            After that, I worked as a Juinor Developer for 1 year of time period and Also Handled my Fathers business while Doing so.
-            <br />
-            <br />
-            Right now, I am pursuing my post graduation in Lambton College,
-            Toronto course named Full Stack Software Development.
-            <br /><br />
-            My Future goal is to be an Entrepreneur and start my own IT company but before that I want to gain experience by becoming a front end developer
-            <br />
-          </figcaption>
-        </figure>
-      </section>
-    </main>
+    </header>
+    <hr style="border-color: brown" />
+    <div class="left-div">
+      <div
+        style="
+          margin-top: 20px;
+          margin-left: 20px;
+          font-size: 32px;
+          color: black;
+          text-decoration: underline;
+        "
+      >
+        <b>My Profile<br /></b><br />
+      </div>
+      <a href="main.html" class="left-div-content" target="c1"
+        ><b>1.Personal Info</b></a
+      >
+      <a href="school.html" class="left-div-content" target="c1"
+        ><br /><b>2.Study Background</b></a
+      >
+      <a href="career.html" class="left-div-content" target="c1"
+        ><br /><b>3.Career Info</b></a
+      >
+    </div>
+    <div class="center-div">
+      <!-- <h3 style="margin-top:0.1px;margin-left:2px;margin-right:2px;background-color:lightyellow;height:30px;border:solid;border-color:brown;border-width:2.5px">
+	 <a href="All.html" style="color:brown;margin-left:10px">All</a>
+	 <a href="Images.html" style="color:brown;text-align:center;Padding-left:50px">Images</a>
+	 <a href="Maps.html" style="color:brown;text-align:center;Padding-left:50px">Maps</a>
+	 <a href="Shopping.html" style="color:brown;text-align:center;Padding-left:50px">Shopping</a>
+	 <a href="More.html" style="color:brown;text-align:center;Padding-left:50px">More</a>
+	 <a href="Setting.html" style="color:brown;text-align:center;Padding-left:50px">Setting</a>	 
+	 </h3> -->
+      <center>
+        <iframe name="c1" src="main.html" class="inner-div"></iframe>
+      </center>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2023 Your Website. All rights reserved.</p>
+          <ul class="footer-links"></ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
